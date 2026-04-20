@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xbel version="1.0"
+      xmlns:bookmark="http://www.freedesktop.org/standards/desktop-bookmarks"
+      xmlns:mime="http://www.freedesktop.org/standards/shared-mime-info"
+>
+  <bookmark href="file:///media/rusakova/VBox_GAs_7.0.10" added="2026-04-14T19:31:13.022402Z" modified="2026-04-14T19:31:30.696421Z" visited="2026-04-14T19:31:13.022402Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="inode/directory"/>
+        <bookmark:applications>
+          <bookmark:application name="org.gnome.Nautilus" exec="&apos;nautilus-autorun-software %u&apos;" modified="2026-04-14T19:31:30.696418Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///media/rusakova/VBox_GAs_7.0.10/VBoxLinuxAdditions.run" added="2026-04-14T19:31:48.579744Z" modified="2026-04-14T19:31:48.579749Z" visited="2026-04-14T19:31:48.579745Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/x-shellscript"/>
+        <bookmark:applications>
+          <bookmark:application name="org.gnome.Nautilus" exec="&apos;vim %F&apos;" modified="2026-04-14T19:31:48.579747Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/rusakova/%D0%97%D0%B0%D0%B3%D1%80%D1%83%D0%B7%D0%BA%D0%B8/lab1%20%5BV0GY78%5D.pdf" added="2026-04-20T19:02:00.699963Z" modified="2026-04-20T19:05:36.747751Z" visited="2026-04-20T19:02:00.699963Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/pdf"/>
+        <bookmark:applications>
+          <bookmark:application name="xdg-desktop-portal-gnome" exec="&apos;xdg-desktop-portal-gnome %u&apos;" modified="2026-04-20T19:05:36.747749Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/rusakova/%D0%97%D0%B0%D0%B3%D1%80%D1%83%D0%B7%D0%BA%D0%B8/lab2%20%5BthuVsY%5D.pdf" added="2026-04-20T19:23:07.420111Z" modified="2026-04-20T19:23:07.420115Z" visited="2026-04-20T19:23:07.420112Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/pdf"/>
+        <bookmark:applications>
+          <bookmark:application name="xdg-desktop-portal-gnome" exec="&apos;xdg-desktop-portal-gnome %u&apos;" modified="2026-04-20T19:23:07.420113Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+</xbel>

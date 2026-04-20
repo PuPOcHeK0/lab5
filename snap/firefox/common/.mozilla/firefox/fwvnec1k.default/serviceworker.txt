@@ -1,0 +1,14 @@
+10
+
+https://e.mail.ru/
+https://e.mail.ru/sw_notifications.js
+false
+{7e53d090-16c4-49b8-b733-4664c8c8ec23}
+2
+1776711674160843
+1776711674162506
+1776711674112394
+0
+true
+0
+#

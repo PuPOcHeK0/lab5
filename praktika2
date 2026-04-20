@@ -1,0 +1,55 @@
+ 
+#!/usr/bin/env bash
+ 
+echo "===== Интерактивный калькулятор ====="
+ 
+# Запрос первого числа
+read -p "Введите первое число: " num1
+ 
+# Проверка на число
+if ! [[ "$num1" =~ ^-?[0-9]+(\.[0-9]+)?$ ]]; then
+    echo "Ошибка: '$num1' не является числом"
+    exit 1
+fi
+ 
+# Запрос второго числа
+read -p "Введите второе число: " num2
+ 
+# Проверка на число
+if ! [[ "$num2" =~ ^-?[0-9]+(\.[0-9]+)?$ ]]; then
+    echo "Ошибка: '$num2' не является числом"
+    exit 2
+fi
+ 
+# Запрос операции
+read -p "Введите операцию (+, -, *, /): " operation
+ 
+# Выполнение операции
+case $operation in
+    +)
+        result=$((num1 + num2))
+        echo "Результат: $num1 $operation $num2 = $result"
+        ;;
+    -)
+        result=$((num1 - num2))
+        echo "Результат: $num1 $operation $num2 = $result"
+        ;;
+    \*)
+        result=$((num1 * num2))
+        echo "Результат: $num1 $operation $num2 = $result"
+        ;;
+    /)
+        if [[ $num2 -eq 0 ]]; then
+            echo "Ошибка: деление на ноль"
+            exit 3
+        fi
+        result=$((num1 / num2))
+        echo "Результат: $num1 $operation $num2 = $result"
+        ;;
+    *)
+        echo "Ошибка: неизвестная операция '$operation'"
+        exit 4
+        ;;
+esac
+ 
+exit 0

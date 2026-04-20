@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xbel version="1.0"
+      xmlns:bookmark="http://www.freedesktop.org/standards/desktop-bookmarks"
+      xmlns:mime="http://www.freedesktop.org/standards/shared-mime-info"
+>
+  <bookmark href="file:///home/rusakova/%D0%97%D0%B0%D0%B3%D1%80%D1%83%D0%B7%D0%BA%D0%B8/lab1%20%5BV0GY78%5D.pdf" added="2026-04-20T19:01:29.988352Z" modified="2026-04-20T19:01:29.988357Z" visited="2026-04-20T19:01:29.988352Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/pdf"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox_firefox %u&apos;" modified="2026-04-20T19:01:29.988354Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/rusakova/%D0%97%D0%B0%D0%B3%D1%80%D1%83%D0%B7%D0%BA%D0%B8/lab2%20%5BthuVsY%5D.pdf" added="2026-04-20T19:21:54.717452Z" modified="2026-04-20T19:21:54.717457Z" visited="2026-04-20T19:21:54.717452Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/pdf"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox_firefox %u&apos;" modified="2026-04-20T19:21:54.717454Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+</xbel>
